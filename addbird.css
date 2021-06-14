@@ -1,0 +1,58 @@
+body {
+    background-image: url("birdsan.webp");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(40, 80, 80, 0.26);
+    border: 15px solid lightblue;
+    padding: 60px;
+    margin: 100px;
+}
+
+.elements {
+    padding: 30px 5px 5px 5px;;
+}
+
+label, input {
+    display: inline-block;
+}
+
+.header {
+    text-align: center;
+    /* background-color: rgb(189, 245, 189); */
+    text-decoration: underline;
+}
+
+.button-box {
+    text-align: center;
+    background-color:lightblue; 
+    border: none;
+    color: lightblue;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: lightblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+@media (max-width:600px) {
+    .container {
+        display: block;
+    }
+    body {
+        background-image: url("birdsan.webp");
+    }
+}
